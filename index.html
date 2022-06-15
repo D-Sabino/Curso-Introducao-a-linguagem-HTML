@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Imagens</title>
+	<title>Links</title>
 </head>
 
 <body>
@@ -35,9 +35,66 @@
 		<h3>Titulo 3</h3>
 		<h4>Titulo 4</h4>
 		<h5>Titulo 5</h5>
+
+		Lista ordenada
+		<ol>
+		<li>Primeiro elemento</li>
+		<li>Segundo elemento</li>
+		<li>Terceiro elemento</li>
+		</ol>
+
+		Lista não ordenada
+		<ul>
+		<li>Primeiro elemento</li>
+		<li>Segundo elemento</li>
+		<li>Terceiro elemento</li>
+		</ul>
+
+		Inserindo uma imagem
+		<img src="imagem.jpg" height="500px">
+
+		Link
+		<a href="http://google.com.br">Google</a>
+
+		<a href="pagina2.html">Link para a pagina 2</a>
+
+		<div>
+	    	<p>Conteúdo de uma div</p>
+		</div>
 	-->
 
-	<!-- Inserindo uma imagem -->
-	<img src="imagem.jpg" height="500px">
+	<form action="processa.php" method="post">
+		<label>Text</label>
+		<input type="text" name="texto1" placeholder="Eu sou um imput do tipo text">
+
+		<br>
+		<label>Password</label>
+		<input type="password" name="senha">
+
+		<br>
+		<label>Oculto</label>
+		<input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+		<br>
+		<label>Seleção</label>
+		<select name="selecao">
+			<option value="1">Opção 1</option>
+			<option value="2">Opção 2</option>
+		</select>
+
+		<br>
+		<label>Radio</label>
+		<input type="radio" name="radio1" value="1">Valor 1
+		<input type="radio" name="radio1" value="2">Valor 2
+
+		<br>
+		<label>Checkbox</label>
+		<input type="Checkbox" name="radio1" value="1" checked>Valor 1
+		<input type="Checkbox" name="radio1" value="2">Valor 2
+
+		<br>
+		<label>Botão</label>
+		<input type="submit" name="enviar" value="Enviar">
+	</form>
 </body>
 </html>
